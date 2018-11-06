@@ -1,6 +1,4 @@
 function sayHello () {
-  //var p = document.getElementById('hello')
-  //p.innerHTML = "Hello, World!";
   console.log("Hello, World!");
 }
 
@@ -11,4 +9,9 @@ function popUP () {
 function Browser () {
   var p = document.getElementById('Hello');
   p.innerHTML = "Hello, World!";
+}
+
+function stranger () {
+  var HelloStranger= prompt("Enter name here");
+  alert("Hello, " + HelloStranger + ". Welcome to the website.");
 }
